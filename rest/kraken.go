@@ -32,7 +32,7 @@ type Kraken struct {
 // New - constructor of Kraken object
 func New(key string, secret string) *Kraken {
 	if key == "" || secret == "" {
-		log.Print("[WARNING] You are not set api key and secret!")
+		//log.Print("[WARNING] You are not set api key and secret!")
 	}
 	return &Kraken{
 		key:    key,
